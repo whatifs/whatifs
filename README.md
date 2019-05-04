@@ -14,4 +14,4 @@ They are not designed to teach you a technique but to show you an extreme from w
 
 ## Episodes
 
-Series 1, Episode 1: What if you have near-zero duplication in unit tests?
+Series 1, Episode 1: What if you write unit tests with near-zero duplication?
