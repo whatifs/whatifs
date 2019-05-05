@@ -14,8 +14,8 @@ They are not designed to teach you a technique but to show you an extreme from w
 
 ## Episodes
 
-What if you continuously de-duplicate unit tests?
+1. What if you continuously de-duplicate unit tests?
 
-What if you never write a function longer than 3 lines?
+2. What if you never write a function longer than 3 lines?
 
-What if you write non-implementation-specific scenarios in BDD?
+3. What if you write non-implementation-specific scenarios in BDD?
