@@ -8,10 +8,14 @@ What Ifs are a series of short videos of extreme experiments in software develop
 
 They are not designed to teach you a technique but to show you an extreme from which you can learn...
 
-- How it helps
+- What helps
 
-- How it hurts
+- What hurts
 
 ## Episodes
 
-Series 1, Episode 1: What if you write unit tests with near-zero duplication?
+What if you continuously de-duplicate unit tests?
+
+What if you never write a function longer than 3 lines?
+
+What if you write non-implementation-specific scenarios in BDD?
