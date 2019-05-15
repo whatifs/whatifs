@@ -18,7 +18,7 @@ namespace AnagramTest
         }
 
         [TestMethod]
-        public void NullEmptyOrBlankTextIsRejected()
+        public void NullTextIsRejected()
         {
             var invalidNullExample = new [] { null, "valid" };
             foreach (var example in new[] {
