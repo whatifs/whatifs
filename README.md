@@ -14,7 +14,7 @@ They are not designed to teach you a technique but to show you an extreme from w
 
 ## Episodes
 
-[1. What if you continuously de-duplicate unit tests?](https://youtu.be/Ow4VL8tcPXA)
+1. [What if you continuously de-duplicate unit tests?](https://youtu.be/Ow4VL8tcPXA)
 
 2. What if you never write a function longer than 3 lines?
 
