@@ -6,7 +6,7 @@ What if extreme experimentation drives extreme learning?
 
 What Ifs are a series of short videos of extreme experiments in software development.
 
-They are not designed to teach you a technique but to show you an extreme from which you can learn...
+They are not designed to teach you a technique but to show you an extreme from which you can decide...
 
 - What helps
 
