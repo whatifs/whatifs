@@ -27,7 +27,7 @@ namespace AnagramTest
         }
 
         [TestMethod]
-        private static void NullText1IsRejected()
+        public void NullText1IsRejected()
         {
             try
             {
@@ -41,7 +41,7 @@ namespace AnagramTest
         }
 
         [TestMethod]
-        private static void NullText2IsRejected()
+        public void NullText2IsRejected()
         {
             try
             {
@@ -50,12 +50,12 @@ namespace AnagramTest
             }
             catch (ArgumentNullException ex)
             {
-                Assert.AreEqual("text1", ex.ParamName);
+                Assert.AreEqual("text2", ex.ParamName);
             }
         }
 
         [TestMethod]
-        private static void TwoNullTextsAreRejected()
+        public void TwoNullTextsAreRejected()
         {
             try
             {
