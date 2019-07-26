@@ -7,10 +7,10 @@ lazy val root = (project in file("."))
     "-Ywarn-unused:imports",
     "-Xfatal-warnings"
   ))))
-//  .enablePlugins(ScalafmtPlugin)
+  .enablePlugins(ScalafmtPlugin)
 
 lazy val projectSettings = Seq(
-  name := "PropertyBasedTesting",
+  name := "HeartRateSample",
   version := "0.1.0",
   organization := "io.whatifs",
   scalaVersion := "2.12.8",
@@ -34,9 +34,9 @@ lazy val headerSettings = Seq(
 )
 
 lazy val projectDependencies = Seq(
-compilerPlugin("org.typelevel" %% "kind-projector" % "0.10.3"),
-
-"org.scalatest" %% "scalatest" % "3.0.8" % "test",
+  compilerPlugin("org.typelevel" %% "kind-projector" % "0.10.3"),
+  "eu.timepit" %% "refined" % "0.9.8",
+  "org.scalatest" %% "scalatest" % "3.0.8" % "test",
   "org.scalacheck" %% "scalacheck" % "1.14.0" % "test"
 )
 

@@ -19,3 +19,5 @@ They are not designed to teach you a technique but to show you an extreme from w
 2. What if you never write a function longer than 3 lines?
 
 3. What if you write non-implementation-specific scenarios in BDD?
+
+4. What if you write all your unit-tests as property based tests?
